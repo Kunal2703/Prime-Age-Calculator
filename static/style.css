@@ -32,7 +32,7 @@ input[type="number"] {
     padding: 8px;
     font-size: 20px;
     margin: 8px 0;
-    width: 30%;
+    width: 40%;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -64,4 +64,11 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+#error-message {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+    color: red;
 }
